@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class l1 {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Scanner test = new Scanner(System.in);
         int a = test.nextInt();
         int b = test.nextInt();
