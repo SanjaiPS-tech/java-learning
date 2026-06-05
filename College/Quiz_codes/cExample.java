@@ -1,4 +1,4 @@
-package College
+package College.Quiz_codes
 ;
 class cExample{
 public static void main(String[] args)

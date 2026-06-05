@@ -1,4 +1,4 @@
-package College;
+package College.Quiz_codes;
 
 import java.util.Scanner;
 
