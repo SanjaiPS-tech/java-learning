@@ -9,6 +9,8 @@ record Student(int rollNo, String studentName, String dept) {
     }
 }
 
+
+
 public class Students {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -33,6 +35,7 @@ public class Students {
             String dept = sc.nextLine();
 
             students[i] = new Student(rollNo, studentName, dept);
+            System.out.println("Test case");
         }
 
         System.out.println("\nStudent Details:");
@@ -41,7 +44,7 @@ public class Students {
             student.displayDetails();
             System.out.println();
         }
-
-        sc.close();
+    
+        // sc.close();
     }
 }
